@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name crokto)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/crokto.pretty/crokto.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+)
