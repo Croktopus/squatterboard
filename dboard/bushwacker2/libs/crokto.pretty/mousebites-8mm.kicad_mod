@@ -1,0 +1,13 @@
+(module mousebites-8mm (layer F.Cu) (tedit 5E6B281E)
+  (fp_text reference REF** (at -1.5 4 90) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value mousebites-8mm (at -3 4 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 1) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 2.5) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 4) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 5.5) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 7) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+)

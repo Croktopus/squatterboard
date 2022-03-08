@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name choc2)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/choc2.pretty)(options "")(descr ""))
+  (lib (name crokto)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/crokto.pretty)(options "")(descr ""))
+  (lib (name switches)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/switches.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/Type-C.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+(module Plated_Plate_Cut-out (layer F.Cu) (tedit 5ECE9C08)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Plated_Plate_Cut-out (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole roundrect (at 0 -6.55) (size 16 3) (drill oval 14.1 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad "" thru_hole roundrect (at -6.55 0 90) (size 16 3) (drill oval 14.1 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad "" thru_hole roundrect (at 0 6.55 180) (size 16 3) (drill oval 14.1 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad "" thru_hole roundrect (at 6.55 0 270) (size 16 3) (drill oval 14.1 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+)

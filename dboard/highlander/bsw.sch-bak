@@ -1,0 +1,862 @@
+EESchema Schematic File Version 4
+LIBS:bsw-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5FEAF32E
+P 1900 2100
+F 0 "USB1" V 1200 2100 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-14" V 1300 2100 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 1900 2100 60  0001 C CNN
+F 3 "" H 1900 2100 60  0001 C CNN
+F 4 "C165948" H 1900 2100 50  0001 C CNN "jlc"
+	1    1900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SRV05-4 U1
+U 1 1 5FEAF7BF
+P 3700 2750
+F 0 "U1" H 3250 3450 50  0000 C CNN
+F 1 "SRV05-4" H 3250 3350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4400 2300 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 3700 2750 50  0001 C CNN
+F 4 "C85364" H 3700 2750 50  0001 C CNN "jlc"
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5FEB003C
+P 3700 1850
+F 0 "F1" V 3500 1850 50  0000 C CNN
+F 1 "500mA" V 3600 1850 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 3750 1650 50  0001 L CNN
+F 3 "~" H 3700 1850 50  0001 C CNN
+F 4 "C70076" H 3700 1850 50  0001 C CNN "jlc"
+	1    3700 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FEB0819
+P 2150 1850
+F 0 "R1" V 2050 1850 50  0000 C CNN
+F 1 "5.1K" V 2150 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 1850 50  0001 C CNN
+F 3 "~" H 2150 1850 50  0001 C CNN
+F 4 "C23186" H 2150 1850 50  0001 C CNN "jlc"
+	1    2150 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FEB0B27
+P 2150 3200
+F 0 "C1" H 2265 3246 50  0000 L CNN
+F 1 "470n" H 2265 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 3050 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+F 4 "C13967" H 2150 3200 50  0001 C CNN "jlc"
+	1    2150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FEB1045
+P 4950 2450
+F 0 "H2" H 5050 2499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 2408 50  0000 L CNN
+F 2 "crokto:M3_Via_Hole_OVAL" H 4950 2450 50  0001 C CNN
+F 3 "~" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FEB1323
+P 4950 2200
+F 0 "H1" H 5050 2246 50  0000 L CNN
+F 1 "MountingHole" H 5050 2155 50  0000 L CNN
+F 2 "crokto:M3_Via_Hole_NC_OVAL" H 4950 2200 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FEB31E8
+P 1850 3200
+F 0 "R3" H 1920 3246 50  0000 L CNN
+F 1 "1M" H 1920 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1780 3200 50  0001 C CNN
+F 3 "~" H 1850 3200 50  0001 C CNN
+F 4 "C17927" H 1850 3200 50  0001 C CNN "jlc"
+	1    1850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FEB5827
+P 2150 2450
+F 0 "R2" V 2050 2450 50  0000 C CNN
+F 1 "5.1K" V 2150 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 2450 50  0001 C CNN
+F 3 "~" H 2150 2450 50  0001 C CNN
+F 4 "C23186" H 2150 2450 50  0001 C CNN "jlc"
+	1    2150 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FEB5F41
+P 2300 1850
+F 0 "#PWR05" H 2300 1600 50  0001 C CNN
+F 1 "GND" V 2305 1722 50  0000 R CNN
+F 2 "" H 2300 1850 50  0001 C CNN
+F 3 "" H 2300 1850 50  0001 C CNN
+	1    2300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FEB67AD
+P 2300 2450
+F 0 "#PWR07" H 2300 2200 50  0001 C CNN
+F 1 "GND" V 2305 2322 50  0000 R CNN
+F 2 "" H 2300 2450 50  0001 C CNN
+F 3 "" H 2300 2450 50  0001 C CNN
+	1    2300 2450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2000 2350
+NoConn ~ 2000 1750
+$Comp
+L power:VBUS #PWR03
+U 1 1 5FEB882F
+P 2400 1650
+F 0 "#PWR03" H 2400 1500 50  0001 C CNN
+F 1 "VBUS" H 2415 1823 50  0000 C CNN
+F 2 "" H 2400 1650 50  0001 C CNN
+F 3 "" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FEBA6B3
+P 2000 1550
+F 0 "#PWR02" H 2000 1300 50  0001 C CNN
+F 1 "GND" V 2005 1422 50  0000 R CNN
+F 2 "" H 2000 1550 50  0001 C CNN
+F 3 "" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 1650 2000 1650
+Text GLabel 4200 2850 2    50   Input ~ 0
+D+
+Text GLabel 3200 2650 0    50   Input ~ 0
+D-
+Wire Wire Line
+	2000 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 2150
+Wire Wire Line
+	2100 2150 2000 2150
+Wire Wire Line
+	2000 2050 2200 2050
+Wire Wire Line
+	2200 2050 2200 2250
+Wire Wire Line
+	2200 2250 2000 2250
+$Comp
+L power:VBUS #PWR08
+U 1 1 5FEBC392
+P 2000 2550
+F 0 "#PWR08" H 2000 2400 50  0001 C CNN
+F 1 "VBUS" V 2015 2678 50  0000 L CNN
+F 2 "" H 2000 2550 50  0001 C CNN
+F 3 "" H 2000 2550 50  0001 C CNN
+	1    2000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5FEBCD1D
+P 2000 2650
+F 0 "#PWR09" H 2000 2400 50  0001 C CNN
+F 1 "GND" V 2005 2522 50  0000 R CNN
+F 2 "" H 2000 2650 50  0001 C CNN
+F 3 "" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 3350 2150 3350
+Text GLabel 2000 2750 2    50   Input ~ 0
+SHIELD
+$Comp
+L power:GND #PWR010
+U 1 1 5FEBE302
+P 1850 3350
+F 0 "#PWR010" H 1850 3100 50  0001 C CNN
+F 1 "GND" H 1855 3177 50  0000 C CNN
+F 2 "" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 3350
+$Comp
+L power:+5V #PWR04
+U 1 1 5FEBEA41
+P 3950 1850
+F 0 "#PWR04" H 3950 1700 50  0001 C CNN
+F 1 "+5V" V 3965 1978 50  0000 L CNN
+F 2 "" H 3950 1850 50  0001 C CNN
+F 3 "" H 3950 1850 50  0001 C CNN
+	1    3950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5FEBF8CE
+P 3700 2250
+F 0 "#PWR01" H 3700 2100 50  0001 C CNN
+F 1 "+5V" H 3715 2423 50  0000 C CNN
+F 2 "" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FEC0294
+P 3700 3250
+F 0 "#PWR06" H 3700 3000 50  0001 C CNN
+F 1 "GND" H 3705 3077 50  0000 C CNN
+F 2 "" H 3700 3250 50  0001 C CNN
+F 3 "" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 2550 3    50   Input ~ 0
+SHIELD
+Text GLabel 2100 1950 2    50   Input ~ 0
+D-
+Text GLabel 2250 2050 2    50   Input ~ 0
+D+
+Wire Wire Line
+	2200 2050 2250 2050
+Connection ~ 2200 2050
+$Comp
+L power:VBUS #PWR0103
+U 1 1 6002061A
+P 3450 1850
+F 0 "#PWR0103" H 3450 1700 50  0001 C CNN
+F 1 "VBUS" H 3465 2023 50  0000 C CNN
+F 2 "" H 3450 1850 50  0001 C CNN
+F 3 "" H 3450 1850 50  0001 C CNN
+	1    3450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1850 3450 1850
+Wire Wire Line
+	3950 1850 3850 1850
+Wire Wire Line
+	2150 3050 1850 3050
+Text GLabel 1750 3050 0    50   Input ~ 0
+SHIELD
+Wire Wire Line
+	1750 3050 1850 3050
+Connection ~ 1850 3050
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FEC6F34
+P 6600 2350
+F 0 "J1" V 6850 2300 50  0000 C CNN
+F 1 "JST_SH_SM04B-SRSS-TB_1x04" V 6750 2300 50  0000 C CNN
+F 2 "crokto:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6600 2350 50  0001 C CNN
+F 3 "~" H 6600 2350 50  0001 C CNN
+F 4 "C160404" H 6600 2350 50  0001 C CNN "jlc"
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FEC7655
+P 6400 2550
+F 0 "#PWR0101" H 6400 2300 50  0001 C CNN
+F 1 "GND" H 6405 2377 50  0000 C CNN
+F 2 "" H 6400 2550 50  0001 C CNN
+F 3 "" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FEC7B14
+P 6400 2250
+F 0 "#PWR0102" H 6400 2100 50  0001 C CNN
+F 1 "+5V" H 6415 2423 50  0000 C CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 2450 0    50   Input ~ 0
+D+
+Text GLabel 6400 2350 0    50   Input ~ 0
+D-
+Text Notes 1500 3700 0    50   ~ 0
+USB Connector
+Text Notes 3500 3700 0    50   ~ 0
+ESD & Fuse
+Text Notes 4950 3700 0    50   ~ 0
+Mounting Holes
+Text Notes 6200 3700 0    50   ~ 0
+JST Connector\n(not compatible with UDB)
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60586779
+P 8100 1700
+F 0 "H3" H 8200 1746 50  0000 L CNN
+F 1 "mousebites" H 8200 1655 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8100 1700 50  0001 C CNN
+F 3 "~" H 8100 1700 50  0001 C CNN
+	1    8100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60587167
+P 8100 1900
+F 0 "H4" H 8200 1946 50  0000 L CNN
+F 1 "mousebites" H 8200 1855 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8100 1900 50  0001 C CNN
+F 3 "~" H 8100 1900 50  0001 C CNN
+	1    8100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 605872CB
+P 8100 2100
+F 0 "H5" H 8200 2146 50  0000 L CNN
+F 1 "mousebites" H 8200 2055 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8100 2100 50  0001 C CNN
+F 3 "~" H 8100 2100 50  0001 C CNN
+	1    8100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60587464
+P 8100 2300
+F 0 "H6" H 8200 2346 50  0000 L CNN
+F 1 "mousebites" H 8200 2255 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8100 2300 50  0001 C CNN
+F 3 "~" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB2
+U 1 1 605922A5
+P 1950 4650
+F 0 "USB2" V 1250 4650 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-14" V 1350 4650 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 1950 4650 60  0001 C CNN
+F 3 "" H 1950 4650 60  0001 C CNN
+F 4 "C165948" H 1950 4650 50  0001 C CNN "jlc"
+	1    1950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SRV05-4 U2
+U 1 1 605922AC
+P 3750 5300
+F 0 "U2" H 3300 6000 50  0000 C CNN
+F 1 "SRV05-4" H 3300 5900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4450 4850 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 3750 5300 50  0001 C CNN
+F 4 "C85364" H 3750 5300 50  0001 C CNN "jlc"
+	1    3750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F2
+U 1 1 605922B3
+P 3750 4400
+F 0 "F2" V 3550 4400 50  0000 C CNN
+F 1 "500mA" V 3650 4400 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 3800 4200 50  0001 L CNN
+F 3 "~" H 3750 4400 50  0001 C CNN
+F 4 "C70076" H 3750 4400 50  0001 C CNN "jlc"
+	1    3750 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 605922BA
+P 2200 4400
+F 0 "R4" V 2100 4400 50  0000 C CNN
+F 1 "5.1K" V 2200 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+F 4 "C23186" H 2200 4400 50  0001 C CNN "jlc"
+	1    2200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 605922C1
+P 2200 5750
+F 0 "C2" H 2315 5796 50  0000 L CNN
+F 1 "470n" H 2315 5705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 5600 50  0001 C CNN
+F 3 "~" H 2200 5750 50  0001 C CNN
+F 4 "C13967" H 2200 5750 50  0001 C CNN "jlc"
+	1    2200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 605922C7
+P 5000 5000
+F 0 "H8" H 5100 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 4958 50  0000 L CNN
+F 2 "crokto:M3_Via_Hole_OVAL" H 5000 5000 50  0001 C CNN
+F 3 "~" H 5000 5000 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 605922CD
+P 5000 4750
+F 0 "H7" H 5100 4796 50  0000 L CNN
+F 1 "MountingHole" H 5100 4705 50  0000 L CNN
+F 2 "crokto:M3_Via_Hole_NC_OVAL" H 5000 4750 50  0001 C CNN
+F 3 "~" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 605922D4
+P 1900 5750
+F 0 "R6" H 1970 5796 50  0000 L CNN
+F 1 "1M" H 1970 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1830 5750 50  0001 C CNN
+F 3 "~" H 1900 5750 50  0001 C CNN
+F 4 "C17927" H 1900 5750 50  0001 C CNN "jlc"
+	1    1900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 605922DB
+P 2200 5000
+F 0 "R5" V 2100 5000 50  0000 C CNN
+F 1 "5.1K" V 2200 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 5000 50  0001 C CNN
+F 3 "~" H 2200 5000 50  0001 C CNN
+F 4 "C23186" H 2200 5000 50  0001 C CNN "jlc"
+	1    2200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 605922E1
+P 2350 4400
+F 0 "#PWR013" H 2350 4150 50  0001 C CNN
+F 1 "GND" V 2355 4272 50  0000 R CNN
+F 2 "" H 2350 4400 50  0001 C CNN
+F 3 "" H 2350 4400 50  0001 C CNN
+	1    2350 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 605922E7
+P 2350 5000
+F 0 "#PWR018" H 2350 4750 50  0001 C CNN
+F 1 "GND" V 2355 4872 50  0000 R CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2050 4900
+NoConn ~ 2050 4300
+$Comp
+L power:VBUS #PWR012
+U 1 1 605922EF
+P 2450 4200
+F 0 "#PWR012" H 2450 4050 50  0001 C CNN
+F 1 "VBUS" H 2465 4373 50  0000 C CNN
+F 2 "" H 2450 4200 50  0001 C CNN
+F 3 "" H 2450 4200 50  0001 C CNN
+	1    2450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 605922F5
+P 2050 4100
+F 0 "#PWR011" H 2050 3850 50  0001 C CNN
+F 1 "GND" V 2055 3972 50  0000 R CNN
+F 2 "" H 2050 4100 50  0001 C CNN
+F 3 "" H 2050 4100 50  0001 C CNN
+	1    2050 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 4200 2050 4200
+Text GLabel 4250 5400 2    50   Input ~ 0
+D+
+Text GLabel 3250 5200 0    50   Input ~ 0
+D-
+Wire Wire Line
+	2050 4500 2150 4500
+Wire Wire Line
+	2150 4500 2150 4700
+Wire Wire Line
+	2150 4700 2050 4700
+Wire Wire Line
+	2050 4600 2250 4600
+Wire Wire Line
+	2250 4600 2250 4800
+Wire Wire Line
+	2250 4800 2050 4800
+$Comp
+L power:VBUS #PWR019
+U 1 1 60592304
+P 2050 5100
+F 0 "#PWR019" H 2050 4950 50  0001 C CNN
+F 1 "VBUS" V 2065 5228 50  0000 L CNN
+F 2 "" H 2050 5100 50  0001 C CNN
+F 3 "" H 2050 5100 50  0001 C CNN
+	1    2050 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 6059230A
+P 2050 5200
+F 0 "#PWR021" H 2050 4950 50  0001 C CNN
+F 1 "GND" V 2055 5072 50  0000 R CNN
+F 2 "" H 2050 5200 50  0001 C CNN
+F 3 "" H 2050 5200 50  0001 C CNN
+	1    2050 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 5900 2200 5900
+Text GLabel 2050 5300 2    50   Input ~ 0
+SHIELD
+$Comp
+L power:GND #PWR023
+U 1 1 60592312
+P 1900 5900
+F 0 "#PWR023" H 1900 5650 50  0001 C CNN
+F 1 "GND" H 1905 5727 50  0000 C CNN
+F 2 "" H 1900 5900 50  0001 C CNN
+F 3 "" H 1900 5900 50  0001 C CNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 5900
+$Comp
+L power:+5V #PWR015
+U 1 1 60592319
+P 4000 4400
+F 0 "#PWR015" H 4000 4250 50  0001 C CNN
+F 1 "+5V" V 4015 4528 50  0000 L CNN
+F 2 "" H 4000 4400 50  0001 C CNN
+F 3 "" H 4000 4400 50  0001 C CNN
+	1    4000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 6059231F
+P 3750 4800
+F 0 "#PWR016" H 3750 4650 50  0001 C CNN
+F 1 "+5V" H 3765 4973 50  0000 C CNN
+F 2 "" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0001 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 60592325
+P 3750 5800
+F 0 "#PWR022" H 3750 5550 50  0001 C CNN
+F 1 "GND" H 3755 5627 50  0000 C CNN
+F 2 "" H 3750 5800 50  0001 C CNN
+F 3 "" H 3750 5800 50  0001 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 5100 3    50   Input ~ 0
+SHIELD
+Text GLabel 2150 4500 2    50   Input ~ 0
+D-
+Text GLabel 2300 4600 2    50   Input ~ 0
+D+
+Wire Wire Line
+	2250 4600 2300 4600
+Connection ~ 2250 4600
+$Comp
+L power:VBUS #PWR014
+U 1 1 60592330
+P 3500 4400
+F 0 "#PWR014" H 3500 4250 50  0001 C CNN
+F 1 "VBUS" H 3515 4573 50  0000 C CNN
+F 2 "" H 3500 4400 50  0001 C CNN
+F 3 "" H 3500 4400 50  0001 C CNN
+	1    3500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4400 3500 4400
+Wire Wire Line
+	4000 4400 3900 4400
+Wire Wire Line
+	2200 5600 1900 5600
+Text GLabel 1800 5600 0    50   Input ~ 0
+SHIELD
+Wire Wire Line
+	1800 5600 1900 5600
+Connection ~ 1900 5600
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 6059233C
+P 6650 4900
+F 0 "J2" V 6900 4850 50  0000 C CNN
+F 1 "JST_SH_SM04B-SRSS-TB_1x04" V 6800 4850 50  0000 C CNN
+F 2 "crokto:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6650 4900 50  0001 C CNN
+F 3 "~" H 6650 4900 50  0001 C CNN
+F 4 "C160404" H 6650 4900 50  0001 C CNN "jlc"
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60592342
+P 6450 5100
+F 0 "#PWR020" H 6450 4850 50  0001 C CNN
+F 1 "GND" H 6455 4927 50  0000 C CNN
+F 2 "" H 6450 5100 50  0001 C CNN
+F 3 "" H 6450 5100 50  0001 C CNN
+	1    6450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 60592348
+P 6450 4800
+F 0 "#PWR017" H 6450 4650 50  0001 C CNN
+F 1 "+5V" H 6465 4973 50  0000 C CNN
+F 2 "" H 6450 4800 50  0001 C CNN
+F 3 "" H 6450 4800 50  0001 C CNN
+	1    6450 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 5000 0    50   Input ~ 0
+D+
+Text GLabel 6450 4900 0    50   Input ~ 0
+D-
+Text Notes 1550 6250 0    50   ~ 0
+USB Connector
+Text Notes 3550 6250 0    50   ~ 0
+ESD & Fuse
+Text Notes 5000 6250 0    50   ~ 0
+Mounting Holes
+Text Notes 6250 6250 0    50   ~ 0
+JST Connector\n(not compatible with UDB)
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 605A5967
+P 8750 1700
+F 0 "H9" H 8850 1746 50  0000 L CNN
+F 1 "mousebites" H 8850 1655 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8750 1700 50  0001 C CNN
+F 3 "~" H 8750 1700 50  0001 C CNN
+	1    8750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 605A596D
+P 8750 1900
+F 0 "H12" H 8850 1946 50  0000 L CNN
+F 1 "mousebites" H 8850 1855 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8750 1900 50  0001 C CNN
+F 3 "~" H 8750 1900 50  0001 C CNN
+	1    8750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 605A5973
+P 8750 2100
+F 0 "H15" H 8850 2146 50  0000 L CNN
+F 1 "mousebites" H 8850 2055 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8750 2100 50  0001 C CNN
+F 3 "~" H 8750 2100 50  0001 C CNN
+	1    8750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H18
+U 1 1 605A5979
+P 8750 2300
+F 0 "H18" H 8850 2346 50  0000 L CNN
+F 1 "mousebites" H 8850 2255 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 8750 2300 50  0001 C CNN
+F 3 "~" H 8750 2300 50  0001 C CNN
+	1    8750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 605A84CB
+P 9400 1700
+F 0 "H10" H 9500 1746 50  0000 L CNN
+F 1 "mousebites" H 9500 1655 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 9400 1700 50  0001 C CNN
+F 3 "~" H 9400 1700 50  0001 C CNN
+	1    9400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 605A84D1
+P 9400 1900
+F 0 "H13" H 9500 1946 50  0000 L CNN
+F 1 "mousebites" H 9500 1855 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 9400 1900 50  0001 C CNN
+F 3 "~" H 9400 1900 50  0001 C CNN
+	1    9400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 605A84D7
+P 9400 2100
+F 0 "H16" H 9500 2146 50  0000 L CNN
+F 1 "mousebites" H 9500 2055 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 9400 2100 50  0001 C CNN
+F 3 "~" H 9400 2100 50  0001 C CNN
+	1    9400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 605A84E3
+P 10050 1700
+F 0 "H11" H 10150 1746 50  0000 L CNN
+F 1 "mousebites" H 10150 1655 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 10050 1700 50  0001 C CNN
+F 3 "~" H 10050 1700 50  0001 C CNN
+	1    10050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 605A84E9
+P 10050 1900
+F 0 "H14" H 10150 1946 50  0000 L CNN
+F 1 "mousebites" H 10150 1855 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 10050 1900 50  0001 C CNN
+F 3 "~" H 10050 1900 50  0001 C CNN
+	1    10050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H17
+U 1 1 605A84EF
+P 10050 2100
+F 0 "H17" H 10150 2146 50  0000 L CNN
+F 1 "mousebites" H 10150 2055 50  0000 L CNN
+F 2 "crokto:mousebite-tab" H 10050 2100 50  0001 C CNN
+F 3 "~" H 10050 2100 50  0001 C CNN
+	1    10050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 605BF923
+P 8100 2700
+F 0 "H19" H 8200 2746 50  0000 L CNN
+F 1 "jlc" H 8200 2655 50  0000 L CNN
+F 2 "crokto:jlc" H 8100 2700 50  0001 C CNN
+F 3 "~" H 8100 2700 50  0001 C CNN
+	1    8100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 605BFDA3
+P 8750 2700
+F 0 "H20" H 8850 2746 50  0000 L CNN
+F 1 "pcba" H 8850 2655 50  0000 L CNN
+F 2 "crokto:JLCPCBA" H 8750 2700 50  0001 C CNN
+F 3 "~" H 8750 2700 50  0001 C CNN
+	1    8750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H21
+U 1 1 605C0159
+P 8750 2900
+F 0 "H21" H 8850 2946 50  0000 L CNN
+F 1 "pcba" H 8850 2855 50  0000 L CNN
+F 2 "crokto:JLCPCBA" H 8750 2900 50  0001 C CNN
+F 3 "~" H 8750 2900 50  0001 C CNN
+	1    8750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H22
+U 1 1 605C07A0
+P 8750 3100
+F 0 "H22" H 8850 3146 50  0000 L CNN
+F 1 "pcba" H 8850 3055 50  0000 L CNN
+F 2 "crokto:JLCPCBA" H 8750 3100 50  0001 C CNN
+F 3 "~" H 8750 3100 50  0001 C CNN
+	1    8750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H23
+U 1 1 605C07A6
+P 8750 3300
+F 0 "H23" H 8850 3346 50  0000 L CNN
+F 1 "pcba" H 8850 3255 50  0000 L CNN
+F 2 "crokto:JLCPCBA" H 8750 3300 50  0001 C CNN
+F 3 "~" H 8750 3300 50  0001 C CNN
+	1    8750 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

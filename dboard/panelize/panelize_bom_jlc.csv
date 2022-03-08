@@ -1,0 +1,8 @@
+"Comment","Designator","Footprint","LCSC Part #"
+"470n","C1,C2","C_0805_2012Metric","C13967"
+"D_TVS","D1,D2","D_SMB","C78395"
+"500mA","F1,F2","Fuse_1206_3216Metric","C70076"
+"JST_SH_SM04B-SRSS-TB_1x04","J1,J2","JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","C160404"
+"5.1K","R1,R2,R4,R5","R_0603_1608Metric","C23186"
+"1M","R3,R6","R_1206_3216Metric","C17927"
+"SRV05-4","U1,U2","SOT-23-6","C85364"

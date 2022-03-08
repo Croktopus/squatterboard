@@ -1,0 +1,12 @@
+Reference, Value, Footprint, Datasheet, jlc
+"USB1","HRO-TYPE-C-31-M-14","Type-C:HRO-TYPE-C-31-M-12-Assembly","","C165948"
+"U1","SRV05-4","Package_TO_SOT_SMD:SOT-23-6","http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF","C85364"
+"F1","500mA","Fuse:Fuse_1206_3216Metric","~","C70076"
+"R1","5.1K","Resistor_SMD:R_0603_1608Metric","~","C23186"
+"C1","4.7n","Capacitor_SMD:C_0805_2012Metric","~","C1744"
+"H2","MountingHole_Pad","crokto:M3_Via_Hole","~"
+"H1","MountingHole","crokto:M3_Via_Hole_NC","~"
+"R3","1M","Resistor_SMD:R_1206_3216Metric","~","C17927"
+"R2","5.1K","Resistor_SMD:R_0603_1608Metric","~","C23186"
+"J1","JST_SH_SM04B-SRSS-TB_1x04","crokto:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","~","C160404"
+"D1","D_TVS","Diode_SMD:D_SOD-123F","~","C78395"

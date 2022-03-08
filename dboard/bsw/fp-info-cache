@@ -1,0 +1,638 @@
+144599429517684
+crokto
+.5mm-hole
+
+
+0
+0
+0
+crokto
+1.5mm-hole
+
+
+0
+0
+0
+crokto
+1mm-hole
+
+
+0
+0
+0
+crokto
+1x3-pogo-90-399-10-103-10-008000
+
+
+0
+3
+3
+crokto
+1x3-pogo-90-829-22-003-20-001101
+
+
+0
+3
+3
+crokto
+1x3_spring_target
+
+
+0
+3
+3
+crokto
+1x4_header_offset
+1x6 Header with 42 mil holes offset by 16 mils
+
+0
+4
+4
+crokto
+1x4_spring_target
+
+
+0
+4
+4
+crokto
+1x5_spring_target
+
+
+0
+5
+5
+crokto
+1x5_tht_pads
+Through hole straight pin header, 1x05, 2.00mm pitch, single row
+Through hole pin header THT 1x05 2.00mm single row
+0
+5
+5
+crokto
+3x1mm-mousebite
+
+
+0
+0
+0
+crokto
+6mm_tht_button
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+crokto
+25mil-hole
+
+
+0
+0
+0
+crokto
+Bourns-70AAJ-4-M0G-1x4
+
+
+0
+8
+4
+crokto
+Bourns-70AAJ-5-M0G-1x5
+
+
+0
+10
+5
+crokto
+Bourns_Spring_Connector_70ABJ-4-M0E
+
+
+0
+8
+1
+crokto
+DO-214AA
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+crokto
+D_SOD-123proto
+SOD-123
+SOD-123
+0
+3
+2
+crokto
+EC10E
+
+
+0
+5
+3
+crokto
+EC11E
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+crokto
+HTP-CON-M411P-F
+
+
+0
+4
+4
+crokto
+HTP-CON-M411P-M
+
+
+0
+4
+4
+crokto
+JLCPCBA
+
+
+0
+0
+0
+crokto
+JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal
+JST SH series connector, SM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+5
+4
+crokto
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
+crokto
+LED_0805_lightpipe
+LED SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+crokto
+LED_WS2812B_MINI
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+crokto
+M2-fakecopper
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+1
+0
+crokto
+M2-via
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+9
+1
+crokto
+M3_Via_Hole
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M3_Via_Hole_NC
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M3_Via_Hole_NC_OVAL
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M3_Via_Hole_OVAL
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+MOUSEBITE-1x1mm
+
+
+0
+0
+0
+crokto
+MOUSEBITE-2x1mm
+
+
+0
+0
+0
+crokto
+MOUSEBITE-3x1mm
+
+
+0
+0
+0
+crokto
+Mill-Max_01x04_Conn_Spring_Piston
+811-22-004-30-000101
+
+0
+4
+4
+crokto
+PIN_HEADER_1x3_OFFSET
+1x6 Header with 42 mil holes offset by 16 mils
+
+0
+3
+3
+crokto
+PIN_HEADER_1x6_OFFSET
+1x6 Header with 42 mil holes offset by 16 mils
+
+0
+6
+6
+crokto
+PinHeader_1x03_offset
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+crokto
+PinHeader_1x04_offset
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+crokto
+PinHeader_1x06_offset
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+crokto
+PinHeader_1x15_offset
+Through hole straight pin header, 1x15, 2.54mm pitch, single row
+Through hole pin header THT 1x15 2.54mm single row
+0
+15
+15
+crokto
+PinHeader_1x16_Offset
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
+crokto
+PinHeader_1x16_Offset_gnd1
+Through hole straight pin header, 1x16, 1.00mm pitch, single row
+Through hole pin header THT 1x16 1.00mm single row
+0
+16
+16
+crokto
+PinHeader_1x16_offset_gnd
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
+crokto
+PinHeader_2x03_P1.27mm_Vertical_center
+Through hole straight pin header, 2x03, 1.27mm pitch, double rows
+Through hole pin header THT 2x03 1.27mm double row
+0
+6
+6
+crokto
+Plated_Plate_Cut-out
+
+
+0
+4
+0
+crokto
+Pogo_1x3
+
+
+0
+3
+3
+crokto
+Pogo_1x3_f
+
+
+0
+3
+3
+crokto
+Pogo_1x3_tht
+
+
+0
+3
+3
+crokto
+Pogo_1x6
+
+
+0
+6
+6
+crokto
+Pogo_1x6_f
+
+
+0
+6
+6
+crokto
+Pogo_1x6_tht
+
+
+0
+6
+6
+crokto
+Pogo_1x6_tht_f
+
+
+0
+6
+6
+crokto
+RKJXM2E13004
+
+Encoder, Joystick
+0
+17
+11
+crokto
+RKJXT1F42001
+
+
+0
+10
+10
+crokto
+RT3MP
+
+
+0
+0
+0
+crokto
+R_Array_4x0402
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)
+resistor array
+0
+8
+8
+crokto
+SK6812MINI
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+crokto
+SK6812MINIE
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+crokto
+SK6812MINIE-nopipe
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+crokto
+SK6812MINIE-simple
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+crokto
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+crokto
+SOT-23-3-vias
+SOT-23, Standard
+SOT-23
+0
+5
+3
+crokto
+SWD-1x6-offset
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+crokto
+TRAPC3-mini-xlr-3
+
+
+0
+3
+3
+crokto
+TRAPC3M1X(S)
+
+
+0
+3
+3
+crokto
+TRAPC3MS1X
+
+
+0
+3
+3
+crokto
+TS-1187A-B-A-B
+ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
+SPST Button Switch
+0
+4
+2
+crokto
+USB_C_Receptacle_HRO_TYPE-C-31-M-14
+USB Type-C receptacle for USB 2.0 - Adapted for SMD pads
+usb usb-c 2.0
+0
+20
+17
+crokto
+XUNPU-6x6-TS-1002S-05526C
+ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
+SPST Button Switch
+0
+4
+2
+crokto
+bav70
+SOT-23, Standard
+SOT-23
+0
+4
+3
+crokto
+bav70-sot23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+crokto
+bav70novia
+SOT-23, Standard
+SOT-23
+0
+3
+3
+crokto
+capsense
+
+
+0
+9
+3
+crokto
+conn_1x3_smd
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+crokto
+ec11b
+
+
+0
+5
+5
+crokto
+jlc
+
+
+0
+0
+0
+crokto
+leafspring-holes
+
+
+0
+6
+1
+crokto
+leafspring-holes-botright
+
+
+0
+6
+0
+crokto
+leafspring-holes-topleft
+
+
+0
+6
+1
+crokto
+m2.5_pad_via
+Mounting Hole 2.7mm
+mounting hole 2.7mm
+0
+9
+1
+crokto
+m3-alignment-stud-hole
+
+
+0
+0
+0
+crokto
+mousebite-tab
+
+
+0
+0
+0
+crokto
+mousebites-6mm
+
+
+0
+0
+0
+crokto
+mousebites-8mm
+
+
+0
+0
+0
+crokto
+normie tsuka outline
+
+
+0
+0
+0
+crokto
+smd_1x3
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+crokto
+smd_1x4
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+4
+4
+crokto
+tsuka outline
+
+
+0
+0
+0
