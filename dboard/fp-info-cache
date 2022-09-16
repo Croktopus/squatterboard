@@ -1,4 +1,4 @@
-19460057196764051
+19993310152494801
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83209,6 +83209,13 @@ HRO-TYPE-C-31-M-13
 16
 13
 Type-C
+HRO-TYPE-C-31-M-14
+
+
+0
+16
+13
+Type-C
 USB_C_GCT_USB4085
 
 
@@ -84042,27 +84049,6 @@ choc2-200
 3
 2
 choc2
-choc2-200-test
-
-
-0
-3
-2
-choc2
-choc2-200-test1
-
-
-0
-3
-2
-choc2
-choc2-225
-
-
-0
-3
-2
-choc2
 choc2-225-sflip
 
 
@@ -84078,6 +84064,13 @@ choc2-275
 2
 choc2
 choc2-625
+
+
+0
+3
+2
+choc2
+choc2-625-sflip
 
 
 0
@@ -84252,19 +84245,19 @@ JLCPCBA
 0
 0
 crokto
+JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical
+JST SH series connector, BM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH side entry
+0
+6
+5
+crokto
 JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal
 JST SH series connector, SM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
 connector JST SH top entry
 0
 5
 4
-crokto
-JST_SH_SM04B-SRSS-TB
-JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
-connector JST SH top entry
-0
-6
-5
 crokto
 JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
 JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
@@ -84301,6 +84294,20 @@ mounting hole 2.2mm m2
 9
 1
 crokto
+M2.5_Via_Hole
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M2.5_Via_Hole_NC
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
 M3_Via_Hole
 Mounting Hole 3.2mm, M3
 mounting hole 3.2mm m3
@@ -84309,6 +84316,20 @@ mounting hole 3.2mm m3
 1
 crokto
 M3_Via_Hole_NC
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M3_Via_Hole_NC_OVAL
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+crokto
+M3_Via_Hole_OVAL
 Mounting Hole 3.2mm, M3
 mounting hole 3.2mm m3
 0
@@ -84616,27 +84637,6 @@ capsense
 9
 3
 crokto
-choc-hotswap-100
-Kailh "Choc" PG1350 keyswitch socket mount
-kailh,choc
-0
-2
-2
-crokto
-choc-hotswap-150
-Kailh "Choc" PG1350 keyswitch socket mount
-kailh,choc
-0
-2
-2
-crokto
-choc-hotswap-200
-Kailh "Choc" PG1350 keyswitch socket mount
-kailh,choc
-0
-2
-2
-crokto
 conn_1x3_smd
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -84679,13 +84679,6 @@ leafspring-holes-topleft
 6
 1
 crokto
-lightpipe_shroud
-
-
-0
-0
-0
-crokto
 m2.5_pad_via
 Mounting Hole 2.7mm
 mounting hole 2.7mm
@@ -84694,6 +84687,13 @@ mounting hole 2.7mm
 1
 crokto
 m3-alignment-stud-hole
+
+
+0
+0
+0
+crokto
+mousebite-tab
 
 
 0
@@ -84735,28 +84735,7 @@ Through hole pin header THT 1x03 2.54mm single row
 4
 4
 crokto
-stlink
-Through hole straight pin header, 1x06, 2.54mm pitch, single row
-Through hole pin header THT 1x06 2.54mm single row
-0
-6
-6
-crokto
 tsuka outline
-
-
-0
-0
-0
-crokto
-ws2812minisk6812minihs
-https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
-LED RGB NeoPixel Mini
-0
-4
-4
-crokto
-wurth-standoff
 
 
 0
@@ -84764,6 +84743,13 @@ wurth-standoff
 0
 switches
 MX-100
+
+
+0
+2
+2
+switches
+MX-100-HS
 
 
 0
@@ -84792,6 +84778,13 @@ MX-100-rpin
 2
 switches
 MX-125
+
+
+0
+2
+2
+switches
+MX-125-HS
 
 
 0
@@ -84833,6 +84826,13 @@ MX-150
 2
 2
 switches
+MX-150-HS
+
+
+0
+2
+2
+switches
 MX-150-label
 
 
@@ -84868,6 +84868,13 @@ MX-175
 2
 2
 switches
+MX-175-HS
+
+
+0
+2
+2
+switches
 MX-175-label
 
 
@@ -84890,6 +84897,13 @@ MX-175-led-rev
 4
 switches
 MX-200
+
+
+0
+2
+2
+switches
+MX-200-HS
 
 
 0
@@ -84952,6 +84966,13 @@ MX-225
 2
 2
 switches
+MX-225-HS
+
+
+0
+2
+2
+switches
 MX-225-label
 
 
@@ -84981,6 +85002,13 @@ MX-250
 2
 switches
 MX-275
+
+
+0
+2
+2
+switches
+MX-275-HS
 
 
 0
@@ -85085,6 +85113,13 @@ MX-625
 2
 2
 switches
+MX-625-HS-sflip
+
+
+0
+2
+2
+switches
 MX-625-sflip
 
 
@@ -85116,6 +85151,27 @@ switches
 MX-ISO-90
 
 
+0
+2
+2
+switches
+choc-hotswap-100
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+switches
+choc-hotswap-150
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+switches
+choc-hotswap-200
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
 0
 2
 2
